@@ -100,10 +100,10 @@ input::-webkit-color-swatch {
 @media (min-width: 350px) and (max-width: 550px) {
     .grad-1 {
         width: 320px;
-        height: 100px;
+        height: 80px;
     }
     .grad-2 {
         width: 310px;
-        height: 90px;
+        height: 70px;
     }
 }
