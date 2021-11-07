@@ -1,3 +1,3 @@
 # Gradiento
 
-Create 'Gradients' of your choice.
+Create `Gradients` of your choice.
