@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="static/css/gradient.css">
+    <title>Gradiento</title>
+</head>
+
+<body>
+    <h1 class="title">GRADIENTO</h1>
+
+    <div class="gradient-box">
+        <div id="gradient"></div>
+        <label class="label" style="color: rgb(0,219,222);">Color1</label>
+        <input class="color1" type="color" name="color1" value="#00dbde">
+        <label class="label" style="color: rgb(255,0,255);">Color2</label>
+        <input class="color2" type="color" name="color2" value="#fc00ff">
+        <h2>Code for gradient is:</h2>
+        <div class="grad-1">
+            <div class="grad-2">
+                <div id="grad-text">linear-gradient(45deg, rgb(0,219,222), rgb(255,0,255));</div>
+                <button id="btn-copy" onClick="copy_to_clipboard()" ><i class="fa fa-copy"></i></button>
+            </div>
+        </div>
+        <script type="text/javascript" src="static/js/gradient.js"></script>
+    </div>
+</body>
+
+</html>
