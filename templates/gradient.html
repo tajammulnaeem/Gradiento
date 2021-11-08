@@ -16,21 +16,25 @@
 
 <body>
     <h1 class="title">GRADIENTO</h1>
-
-    <div class="gradient-box">
-        <div id="gradient"></div>
-        <label class="label" style="color: rgb(0,219,222);">Color1</label>
-        <input class="color1" type="color" name="color1" value="#00dbde">
-        <label class="label" style="color: rgb(255,0,255);">Color2</label>
-        <input class="color2" type="color" name="color2" value="#fc00ff">
-        <h2>Code for gradient is:</h2>
-        <div class="grad-1">
-            <div class="grad-2">
-                <div id="grad-text">linear-gradient(45deg, rgb(0,219,222), rgb(255,0,255));</div>
-                <button id="btn-copy" onClick="copy_to_clipboard()" ><i class="fa fa-copy"></i></button>
-            </div>
+    <div class="container">
+        <div class="inner-container1">
+            <div id="gradient-box"></div>
+            <input class="angle" id="angle" type="range" min="0" max="360" value="0">
         </div>
-        <script type="text/javascript" src="static/js/gradient.js"></script>
+        <div class="inner-container2">
+            <label class="color-labels" style="color: rgba(0, 0, 0, .5);">Color1</label>
+            <input class="colors" id="color1" type="color" value="#00dbde">
+            <label class="color-labels" style="color: rgba(0, 0, 0, .5);">Color2</label>
+            <input class="colors" id="color2" type="color" value="#fc00ff">
+            <h2>Code for gradient is:</h2>
+            <div class="grad-1">
+                <div class="grad-2">
+                    <div id="grad-text">linear-gradient(0deg, rgb(0,219,222), rgb(255,0,255));</div>
+                    <button id="btn-copy" onClick="copy_to_clipboard()" ><i class="fa fa-copy"></i></button>
+                </div>
+            </div>
+            <script type="text/javascript" src="static/js/gradient.js"></script>
+        </div>
     </div>
 </body>
 

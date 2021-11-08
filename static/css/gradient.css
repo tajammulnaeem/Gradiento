@@ -19,24 +19,37 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.gradient-box {
-    margin-top: 50px;
+.container {
     color: rgba(0, 0, 0, .5);
     text-align: center;
     background-color: transparent;
 }
 
-#gradient {
+.inner-container1 {
+    margin-top: 50px;
+}
+
+#gradient-box {
     margin: auto;
-    background: linear-gradient(45deg, rgb(0, 219, 222), rgb(252, 0, 255));
-    width: 320px;
+    background: linear-gradient(0deg, rgb(0, 219, 222), rgb(252, 0, 255));
+    width: 250px;
     height: 320px;
     border-radius: 8px;
     box-shadow: 2px 31px 35px -15px rgba(0, 0, 0, .64);
 }
 
-input {
-    margin-top: 30px;
+.angle {
+    height: 2px;
+    width: 240px;
+    background-color: gray;
+    -webkit-appearance: none;
+}
+
+.inner-container2 {
+    margin-top: 20px;
+}
+
+.colors {
     height: 50px;
     width: 50px;
     border: none;
@@ -44,7 +57,7 @@ input {
     -webkit-appearance: none;
 }
 
-input::-webkit-color-swatch {
+.colors::-webkit-color-swatch {
     border-radius: 50%;
 }
 
@@ -92,10 +105,12 @@ input::-webkit-color-swatch {
     color: #00dbde;
 }
 
-.label {
+.color-labels {
     position: relative;
     top: -15px;
+    font-weight: bold;
 }
+
 
 @media (min-width: 350px) and (max-width: 550px) {
     .grad-1 {
