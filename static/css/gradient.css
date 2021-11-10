@@ -27,10 +27,19 @@ body {
 
 .inner-container1 {
     margin-top: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.angle-container {
+    width: 3px;
 }
 
 #gradient-box {
-    margin: auto;
+    /* margin: auto; */
+    /* margin-left: 120px; */
     background: linear-gradient(0deg, rgb(0, 219, 222), rgb(252, 0, 255));
     width: 250px;
     height: 320px;
@@ -40,9 +49,12 @@ body {
 
 .angle {
     height: 2px;
-    width: 240px;
+    width: 120px;
     background-color: gray;
     -webkit-appearance: none;
+    transform: rotate(-90deg);
+    position: relative;
+    left: -49px;
 }
 
 .inner-container2 {
