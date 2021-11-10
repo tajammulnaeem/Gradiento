@@ -17,6 +17,9 @@ body {
     -o-background-clip: text;
     -ms-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
 }
 
 .container {
@@ -38,8 +41,6 @@ body {
 }
 
 #gradient-box {
-    /* margin: auto; */
-    /* margin-left: 120px; */
     background: linear-gradient(0deg, rgb(0, 219, 222), rgb(252, 0, 255));
     width: 250px;
     height: 320px;
@@ -52,6 +53,9 @@ body {
     width: 120px;
     background-color: gray;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
     transform: rotate(-90deg);
     position: relative;
     left: -49px;
@@ -67,6 +71,9 @@ body {
     border: none;
     background: none;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
 }
 
 .colors::-webkit-color-swatch {
@@ -130,8 +137,16 @@ body {
         width: 320px;
         height: 80px;
     }
+
     .grad-2 {
         width: 310px;
         height: 70px;
     }
 }
+
+/* 
+-moz-
+-o-
+-ms-
+-webkit-
+*/
