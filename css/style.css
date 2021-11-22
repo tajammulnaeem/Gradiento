@@ -1,147 +1,158 @@
+::-moz-selection {
+  -moz-user-select: none;
+  user-select: none;
+}
+
+::selection {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 body {
-    font-family: "Poppins";
-    margin: 0;
-    user-select: none;
+  font-family: "Poppins";
+  margin: 0;
+  height: 100vh;
 }
 
 .title {
-    width: 266px;
-    margin: 10px auto;
-    font-size: 48px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background: linear-gradient(90deg, #00dbde, #fc00ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -o-background-clip: text;
-    -ms-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    -o-text-fill-color: transparent;
-    -ms-text-fill-color: transparent;
+  width: 266px;
+  margin: 10px auto;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
 }
 
 .container {
-    color: rgba(0, 0, 0, .5);
-    text-align: center;
-    background-color: transparent;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-color: transparent;
 }
 
 .inner-container1 {
-    margin-top: 50px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .angle-container {
-    width: 3px;
+  width: 3px;
 }
 
 #gradient-box {
-    background: linear-gradient(0deg, rgb(0, 219, 222), rgb(252, 0, 255));
-    width: 250px;
-    height: 320px;
-    border-radius: 8px;
-    box-shadow: 2px 31px 35px -15px rgba(0, 0, 0, .64);
+  background: linear-gradient(0deg, rgb(0, 219, 222), rgb(252, 0, 255));
+  width: 250px;
+  height: 320px;
+  border-radius: 8px;
+  box-shadow: 2px 31px 35px -15px rgba(0, 0, 0, 0.64);
 }
 
 .angle {
-    height: 2px;
-    width: 120px;
-    background-color: gray;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    -ms-appearance: none;
-    transform: rotate(-90deg);
-    position: relative;
-    left: -49px;
+  height: 2px;
+  width: 120px;
+  background-color: gray;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  transform: rotate(-90deg);
+  position: relative;
+  left: -49px;
 }
 
 .inner-container2 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .colors {
-    height: 50px;
-    width: 50px;
-    border: none;
-    background: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    -ms-appearance: none;
+  height: 50px;
+  width: 50px;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
 }
 
 .colors::-webkit-color-swatch {
-    border-radius: 50%;
-    border: none;
+  border-radius: 50%;
+  border: none;
 }
 
 .grad-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 540px;
-    height: 50px;
-    background: linear-gradient(45deg, rgb(0, 219, 222), rgb(252, 0, 255));
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 540px;
+  height: 50px;
+  background: linear-gradient(45deg, rgb(0, 219, 222), rgb(252, 0, 255));
+  border-radius: 10px;
 }
 
 .grad-2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 530px;
-    height: 40px;
-    background: white;
-    border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 530px;
+  height: 40px;
+  background: white;
+  border-radius: 7px;
 }
 
 #grad-text {
-    margin: auto;
-    font-weight: bold;
+  margin: auto;
+  font-weight: bold;
 }
 
 #btn-copy {
-    font-size: 20px;
-    display: block;
-    border: none;
-    background: transparent;
-    margin-right: 7px;
-    cursor: pointer;
-    color: #fc00ff;
+  font-size: 20px;
+  display: block;
+  border: none;
+  background: transparent;
+  margin-right: 7px;
+  cursor: pointer;
+  color: #fc00ff;
 }
 
 #btn-copy:hover {
-    transform: scale(1.4);
+  transform: scale(1.4);
 }
 
 #btn-copy:active {
-    color: #00dbde;
+  color: #00dbde;
 }
 
 .color-labels {
-    position: relative;
-    top: -15px;
-    font-weight: bold;
+  position: relative;
+  top: -15px;
+  font-weight: bold;
 }
 
-
 @media (min-width: 350px) and (max-width: 550px) {
-    .grad-1 {
-        width: 320px;
-        height: 80px;
-    }
+  .grad-1 {
+    width: 320px;
+    height: 80px;
+  }
 
-    .grad-2 {
-        width: 310px;
-        height: 70px;
-    }
+  .grad-2 {
+    width: 310px;
+    height: 70px;
+  }
 }
 
 /* 
