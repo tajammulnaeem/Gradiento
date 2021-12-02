@@ -10,4 +10,4 @@ Create `Gradients` of your choice.
 <br>
 <h2 align = "center">Preview</h2>
 
-![Preview](Readme/Demo.gif)
+![Preview](Gradiento.gif)
