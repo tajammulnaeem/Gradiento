@@ -4,7 +4,7 @@
 Create `Gradients` of your choice.
 
 </div>
-<p align = "center">Try it by clicking here <a href = "https://hammad-001.github.io/Math-HUT/">here</a>.</p>
+<p align = "center">Try it by clicking here <a href = "https://tajammulnaeem.github.io/Gradiento/">here</a>.</p>
 
 <br>
 <br>
